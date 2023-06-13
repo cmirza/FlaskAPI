@@ -1,0 +1,34 @@
+# Python artifacts
+venv/
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# IDE-specific files (e.g., for VSCode)
+.vscode/
+
+# Logs
+*.log
+
+# Compiled Python files
+*.pyc
+
+# Dependency directories
+lib/
+lib64/
+parts/
+sdist/
+build/
+dist/
+egg-info/
+.eggs/
+
+# Ignore MongoDB data directory
+data/
+db/
+
+# Ignore system files and folders
+.DS_Store
+Thumbs.db
